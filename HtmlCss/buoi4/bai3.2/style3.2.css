@@ -1,0 +1,70 @@
+.items{
+    border: 1px solid #E0E0E0;
+    width: 179PX;
+    height: 235PX;
+    display:flex; /* xếp đối tuọng thanh 1 hang */
+    flex-direction: column; /* xep đối tuọngw theo cột */ 
+    align-items: center; /* đưa đối tuọng ra giữa */
+    justify-content: space-around; /* cách đều các đối tuọng với nhau */
+}
+.items_name{
+    /* width: 112px;
+    height: 24px;
+    line-height: 24px; */
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    /* margin-top: 19px;
+    margin-left: 32px; */
+}
+.items_price{
+   /*  width: 61px;
+    height: 21px; */
+    border: 1px solid #FFE3E3;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #FFE3E3;
+    text-align: center;
+    padding: 5px 5px 5px ;
+ /*    margin-top: 8px;
+    margin-left: 57px; */
+}
+.items_image{
+    /* margin-top: 8px;
+    margin-left: 20px; */
+ /*    width: 140px;
+    height: 140px;
+     */
+}
+.list_items{
+    display: flex;
+    flex-direction: row;
+}
+.coundown{
+    width: 198px;
+    height: 113px;
+    margin: 8px 0 0 8px;
+}
+.coundown_text1{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.coundown_text2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.coundown_div{
+    display: flex;
+    justify-content: space-around;
+}
+.coundown_div div{
+    border-radius: 5px;
+    width: 45px;
+    height: 50px;
+    background-color: #606060;
+}
