@@ -1,0 +1,150 @@
+.hearder-alibaba{
+    width: 1440px;
+    height: 86px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.navbar-alibaba{
+    width: 1440px;
+    height: 56px;
+}
+
+.Section-main{
+    margin-top: 20px;
+    width: 1180px;
+    height: 400px;
+}
+
+.Section-sale{
+    margin-top: 30px;
+    width: 1180px;
+    height: 240px;
+    display: flex;
+}
+
+.Block-items-group{
+    width: 1180px;
+    height: 257px;
+    margin-top: 22.5;
+}
+
+.Section-inquiry{
+    height: 1180px;
+    height: 420px;
+    margin-top: 25px;
+}
+
+.Section-recommend{
+    width: 1180px;
+    height: 700px;
+    margin-top: 25px;
+}
+
+.Section-service{
+    width: 1180px;
+    height: 256px;
+    margin-top: 25px;
+}
+
+.Section-country{
+    width: 1177px;
+    height: 138px;
+    margin-top: 30px;
+}
+
+
+.newsletter-alibaba{
+    width: 1440px;
+    height: 190px;
+    margin-top: 43px;
+}
+
+.newsletter-alibaba{
+    width: 1440px;
+    height: 324px;
+}
+
+/* items */
+.items{
+    width: 895px;
+    height: 235px;
+  
+}
+
+
+.item{
+    border: 1px solid #E0E0E0;
+    width: 179PX;
+    height: 235PX;
+    display:flex; /* xếp đối tuọng thanh 1 hang */
+    flex-direction: column; /* xep đối tuọngw theo cột */ 
+    align-items: center; /* đưa đối tuọng ra giữa */
+    justify-content: space-around; /* cách đều các đối tuọng với nhau */
+}
+.item_name{
+    /* width: 112px;
+    height: 24px;
+    line-height: 24px; */
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    /* margin-top: 19px;
+    margin-left: 32px; */
+}
+.item_price{
+   /*  width: 61px;
+    height: 21px; */
+    border: 1px solid #FFE3E3;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #FFE3E3;
+    text-align: center;
+    padding: 5px 5px 5px ;
+ /*    margin-top: 8px;
+    margin-left: 57px; */
+}
+.item_image{
+    /* margin-top: 8px;
+    margin-left: 20px; */
+ /*    width: 140px;
+    height: 140px;
+     */
+}
+.items{
+    display: flex;
+    flex-direction: row;
+}
+.coundown{
+    width: 198px;
+    height: 113px;
+    margin: 20px 63px 107px 20px;
+}
+.coundown_text1{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.coundown_text2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.time{
+    display: flex;
+    justify-content: space-around;
+}
+.time div{
+    border-radius: 5px;
+    width: 45px;
+    height: 50px;
+    background-color: #606060;
+}
