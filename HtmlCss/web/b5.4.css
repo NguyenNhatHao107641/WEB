@@ -1,9 +1,19 @@
 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-alibaba{
@@ -130,6 +140,7 @@ body{
 .time{
     display: flex;
     justify-content: space-around;
+    margin-top: 18px;
 }
 .time div{
     border-radius: 5px;
@@ -239,7 +250,7 @@ margin-left: 10px;
 /* 
 Begin Block-items-group1 */
 
-.Block-items-group1{
+.Block-items-group{
     width: 1180px;
     height: 257px;
     border: 1px solid #E0E0E0;
@@ -290,3 +301,96 @@ Begin Block-items-group1 */
 }
 
 /* End block-items-group1 */
+
+/* Begin Section-inquiry */
+
+.Section-inquiry{
+    display: inline-block;
+    width: 1180px;
+    height: 420px;
+    background: linear-gradient(to right, #2C7CF1,#00D1FF80 ), url('./Image/image\ 102.png')center  no-repeat;
+}
+
+.Section-inquiry .inquiry-info{
+    margin: 40px;
+    display: inline-block;
+}
+
+.Section-inquiry>.inquiry-info h2{
+    font-size: 32px;
+    color: #fff;
+    
+}
+
+.Section-inquiry>.inquiry-info p{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 13px;
+}
+
+.Section-inquiry .inquiry-from-block{
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px 31px 25px 20px;
+    height: 346px;
+    border-radius: 10px;
+    margin: 30px 31px 44px 0;
+}
+
+.Section-inquiry>.inquiry-from-block div{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Section-inquiry>.inquiry-from-block .text-heading{
+    font-size: 20px;
+}
+
+.Section-inquiry .input-basic{
+    width: 440px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.Section-inquiry .textarea{
+    width: 440px;
+    height: 73px;
+    margin-top: 20px;
+}
+
+.Section-inquiry ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Section-inquiry .input-basic1{
+    width: 206px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.Section-inquiry .input-basic2{
+    height: 40px;
+    width: 111px;
+}
+
+.Section-inquiry .input-btn{
+    width: 128px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 4px;
+    background-color: #127FFF;
+}
+
+.Section-inquiry .input-btn p{
+    line-height: 31px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/* End Section-inquiry */
